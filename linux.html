@@ -10,33 +10,73 @@
     <header>
         <nav>
             <a href="index.html">S/O</a> 
-            <a href="Git.html">Git</a>
+            <a href="cli_gui.html">Interface do S/O</a>
             <a href="Cmd.html">Cmd</a>
             <a href="linux.html">Linux</a>
+            <a href="Git.html">Git</a>
             <a href="deploy.html">Deploy</a>
         </nav>
         <br>
     </header>
     <main>
         <div class="box">
-            <h1>Sistema Operacional</h1>
+            <h1>Linux</h1>
             <article>
                 <h2> O que é?</h2>
-                <p><span></span> Um sistema operacional é um software ou conjunto de softwares que desempenha um papel fundamental na administração e gerenciamento dos recursos de um sistema. Esses recursos incluem componentes de hardware, sistemas de arquivos e programas de terceiros. O sistema operacional atua como uma interface entre o computador (ou dispositivo) e o usuário.</p>
+                <p> O Linux é um sistema operacional de código aberto, semelhante ao Windows e ao macOS. Ele é usado em uma variedade de dispositivos, incluindo desktops, servidores, smartphones e caixas bancários.</p>
                 <ul>
-                    <li>Assoc: Exibe ou modifica associações de extensões de arquivo com tipos de arquivo específicos</li>
-                    <li>Cipher: Permite criptografar ou descriptografar arquivos e pastas no sistema de arquivos NTFS</li>
-                    <li>Driverquery: Mostra informações sobre os drivers instalados no sistema</li>
-                    <li>Comparação de arquivos (File Compare): Compara o conteúdo de dois arquivos e exibe as diferenças</li>
-                    <li>Ipconfig: Exibe informações sobre configurações de rede, como endereço IP, máscara de sub-rede e gateway padrão</li>
-                    <li>Netstat: Mostra estatísticas de rede, como conexões ativas, portas em uso e protocolos</li>
-                    <li>Ping: Testa a conectividade com um host remoto, enviando pacotes ICMP e exibindo o tempo de resposta</li>
-                    <li>Tracert (Trace Route): Rastreia a rota de pacotes até um host remoto, mostrando os saltos intermediários</li>
-                    <li>Tasklist: Lista os processos em execução no sistema, incluindo seus IDs e uso de memória</li>
+                    <li>É baseado em um kernel.</li>
+                    <li>Diferentemente de seus concorrentes comerciais, o Linux é desenvolvido em código aberto, o que significa que qualquer pessoa pode criar e distribuir aplicativos para ele.</li>
+                    <li>A parte básica do Linux consiste no kernel, mas também requer aplicativos e bibliotecas específicas para funcionar corretamente.</li>
+                </ul>
+                <h2>Exemplos</h2>
+                <ul>
+                    <li><span>ls:</span> Lista os arquivos e diretórios no diretório atual.</li>
+                    <br>
+                    <li><span>cd:</span> Altera o diretório atual. Por exemplo,  cd /home/usuario/diretorio.</li>
+                    <br>
+                    <li><span>mkdir:</span> Cria um novo diretório. Por exemplo, mkdir novo_diretorio.</li>
+                    <br>
+                    <li><span>rm:</span> Remove arquivos ou diretórios. Por exemplo, rm arquivo.txt. OBS: os arquivos serão excluídos permanentemente.</li>
+                    <br>
+                    <li><span>cp:</span> Copia arquivos e diretórios. Por exemplo, cp arquivo.txt/diretorio_destino.</li>
+                    <br>
+                    <li><span>mv:</span> Move ou renomeia arquivos e diretórios. Por exemplo, mv arquivo.txt novo_nome.txt.</li>
+                    <br>
+                    <li><span>touch:</span> Cria um arquivo vazio ou atualiza a data de modificação de um arquivo existente. Se o arquivo já existir, apenas atualiza a data de modificação para a hora atual. Por exemplo, touch novo_arquivo.txt.</li>
+                    <br>
+                    <li><span>cat:</span> Exibe o conteúdo de um arquivo. Por exemplo, cat arquivo.txt. </li>
+                    <br>
+                    <li><span>less:</span> Exibe o conteúdo de um arquivo de maneira paginada, permitindo que você role para cima e para baixo. Por exemplo, less arquivo.txt</li>
+                    <br>
+                    <li><span>grep:</span> Pesquisa por padrões em arquivos ou saída de comandos. Por exemplo, grep “palavra” arquivo.txt</li>
+                    <br>
+                    <li><span>chmod:</span> Modifica as permissões de acesso de arquivos e diretórios. Por exemplo, chmod 755 arquivo.sh.</li>
+                    <br>
+                    <li><span>chown:</span> Altera o proprietário e/ou o grupo de arquivos e diretórios. Por exemplo, chown usuario:grupo arquivo.txt.</li>
+                    <br>
+                    <li><span>sudo:</span> Executa comandos Linux com privilégios de superusuário. Por exemplo, sudo apt-get update.</li>
+                    <br>
+                    <li><span>passwd:</span> Altera a senha do usuário.</li>
+                    <br>
+                    <li><span>ps:</span> Exibe informações sobre os processos em execução, como ID do processo (PID), uso de CPU, memória etc. Por exemplo, ps aux.</li>
+                    <br>
+                    <li><span>kill:</span> Encerra processos especificados enviando um sinal de término para eles. O comando kill pode ser usado para encerrar processos com base no PID ou nome. Por exemplo, kill -9 PID.</li>
+                    <br>
+                    <li><span>df:</span> Exibe o espaço em disco disponível e usado. Ele lista as informações de espaço em disco para todos os sistemas de arquivos montados no sistema. Por exemplo, df -h.</li>
+                    <br>
+                    <li><span>du:</span> Verificar quanto espaço em disco um determinado arquivo ou diretório está ocupando. Por exemplo, du -sh /diretorio.</li>
+                    <br>
+                    <li><span>tar:</span> Cria, extrai ou comprime arquivos no formato tar. É frequentemente usado para criar backups ou compactar vários arquivos e diretórios em um único arquivo. Por exemplo, tar -cvf arquivo.tar /diretorio.</li>
+                    <br>
+                    <li><span>gzip:</span> Comprime ou descomprime arquivos no formato gzip. É comumente usado para compactar arquivos e economizar espaço em disco. Por exemplo, gzip arquivo.txt.</li>
+                    <br>
                 </ul>
             </article>
             <article>
                 <div class="box2">
+                    <br>
+                    <img src="linux.jpg" alt="">
                 </div>
             </article>
         </div>
@@ -46,8 +86,10 @@
         <hr>
         <small>Autor: Ana Clara Furtado G. &reg; &trade;</small>
         <br>
-        <small>Fontes: 
-            1 tecnoblog.net 2 olhardigital.com.br 3 conceitosdomundo.pt 4 canaltech.com.br</small>
+        <small><span>Fontes:</span>
+            <span>1</span> techtudo.com.br <span>2</span> redhat.com <span>3</span> https://www.locaweb.com.br/blog/temas/codigo-aberto/comandos-linux/</small>
+            <br>
+            <small><span>Imagem:</span> https://geekland.eu/como-usar-y-configurar-el-historial-de-comandos-history-en-linux/.</small>
     </footer>
 
 </body>
